@@ -1,0 +1,35 @@
+{
+  "name": "@mediarithmics-ps/template",
+  "version": "1.0.0",
+  "description": "a simple template for mediarithmics",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mediarithmics-ps/file-stream-toolbelt": "^1.9.1",
+    "@mediarithmics-ps/mics-api-sdk": "^2.2.2",
+    "@mediarithmics-ps/sftp-client": "^1.5.0",
+    "@mediarithmics-ps/utils": "^2.6.1",
+    "typescript": "^3.7.4"
+  },
+  "publishConfig": {
+    "registry": "https://sf-npm.mediarithmics.com/repository/npm-mics-ps/"
+  },
+  "files": [
+    "build/**/*",
+    "package-lock.json",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolashavard-mediarithmics/template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicolashavard-mediarithmics/template/issues"
+  },
+  "homepage": "https://github.com/nicolashavard-mediarithmics/template#readme"
+}
