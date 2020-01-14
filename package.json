@@ -10,10 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mediarithmics-ps/file-stream-toolbelt": "^1.9.1",
-    "@mediarithmics-ps/mics-api-sdk": "^2.2.2",
-    "@mediarithmics-ps/sftp-client": "^1.5.0",
     "@mediarithmics-ps/utils": "^2.6.1",
+    "dotenv": "^8.2.0",
     "typescript": "^3.7.4"
   },
   "publishConfig": {
