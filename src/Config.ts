@@ -7,5 +7,6 @@ dotenv.config({ path: "./config/.env" });
 export const config: Iconfig = {
     STRING: env(required)("STRING"),
     NUMBER: env(int, required)("NUMBER"),
-    BOOLEAN: env(bool, required)("BOOLEAN")
+    BOOLEAN: env(bool, required)("BOOLEAN"),
+    LOG_LEVEL: env(required)("LOG_LEVEL")
 }
