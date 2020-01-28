@@ -6,4 +6,4 @@ export const exportedFunction = (param: string): string => {
     } else {
         return "defaultResponse";
     }
-}
+};

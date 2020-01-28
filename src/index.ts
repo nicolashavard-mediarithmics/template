@@ -6,9 +6,9 @@ import { logger } from "./services/Logger";
     console.log(`${config.NUMBER} : ${typeof config.NUMBER}`);
     console.log(`${config.BOOLEAN} : ${typeof config.BOOLEAN}`);
     logger.error("error");
-    logger.warn("warn")
+    logger.warn("warn");
     logger.info("info");
     logger.verbose("verbose");
     logger.debug("debug");
-    logger.silly("silly")
+    logger.silly("silly");
 })();

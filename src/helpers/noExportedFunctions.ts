@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const noExportedFunction = (param: string): string => {
     if (param === "case1") {
         return "response1";
@@ -6,4 +7,4 @@ const noExportedFunction = (param: string): string => {
     } else {
         return "defaultResponse";
     }
-}
+};

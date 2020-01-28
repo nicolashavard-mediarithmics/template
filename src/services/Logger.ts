@@ -1,5 +1,5 @@
-import * as winston from "winston"
-import { config } from "../Config"
+import * as winston from "winston";
+import { config } from "../Config";
 
 export const logger = winston.createLogger({
     transports: [
@@ -13,4 +13,4 @@ export const logger = winston.createLogger({
         })
     ],
     level: config.LOG_LEVEL,
-})
+});
