@@ -1,5 +1,5 @@
 import { assert, expect } from "chai";
-import * as rewire from "rewire";
+import rewire from "rewire";
 
 describe('noExportedFunctions', (): void => {
     const noExportedFunctions = rewire("../../src/helpers/NoExportedFunctions");
