@@ -1,6 +1,5 @@
 import { env, required, int, bool } from "@mediarithmics-ps/utils";
-// eslint-disable-next-line no-unused-vars
-import { Iconfig } from "./Interfaces";
+import { IConfig } from "./Interfaces";
 import * as dotenv from "dotenv";
 import * as path from "path";
 
@@ -11,7 +10,7 @@ if (process.env.ENV_FILE) {
     process.exit();
 }
 
-export const config: Iconfig = {
+export const config: IConfig = {
     STRING: env(required)("STRING"),
     NUMBER: env(int, required)("NUMBER"),
     BOOLEAN: env(bool, required)("BOOLEAN"),

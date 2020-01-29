@@ -1,4 +1,4 @@
-export interface Iconfig {
+export interface IConfig {
     STRING: string;
     NUMBER: number;
     BOOLEAN: boolean;
