@@ -2,7 +2,7 @@ import { assert, expect } from "chai";
 import rewire from "rewire";
 
 describe("noExportedFunctions", (): void => {
-    const noExportedFunctions = rewire("../../src/helpers/NoExportedFunctions");
+    const noExportedFunctions = rewire("../../src/helpers/noExportedFunctions");
     describe("noExportedFunction", (): void => {
         const noExportedFunction = noExportedFunctions.__get__("noExportedFunction");
         it("assert with case1", (): void => {
