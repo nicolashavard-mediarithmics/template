@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  build:
+    container_name: build
+    image: node:12.16.0
+    working_dir: /app
+    command: npm run build:watch
+    volumes:
+      - .:/app
+      - ./config/.npmrc:/app/.npmrc
+    
+
+  script:
+    container_name: script
+    image: node:12.16.0
+    working_dir: /app
+    command: npm start
+    env_file: ./config/.env.sample
+    environment:
+      - ENV_FILE=/app/config/.env.sample
+    volumes:
+      - .:/app
+      - ./config/.npmrc:/app/.npmrc
+      - ./config/.env.sample:/app/config/.env.sample
+    

@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  production:
+    image: imageName
+    environment:
+      - ENV_FILE=.env.sample
