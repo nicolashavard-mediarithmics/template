@@ -1,7 +1,7 @@
 {
   "name": "@mediarithmics-ps/template",
   "version": "1.0.0",
-  "description": "a simple template for mediarithmics",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
