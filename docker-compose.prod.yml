@@ -1,6 +1,8 @@
 version: "3.7"
 services:
   production:
-    image: imageName
+    image: micsregistry.azurecr.io/0000-template:1.0.0
     environment:
       - ENV_FILE=.env.sample
+    volumes:
+      - /data/template:/data
